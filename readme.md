@@ -69,3 +69,9 @@ fake.address()
 ```
 
 In a standard Databricks cluster install, you would not have immediate access to this library. So if the above code works correctly, you can be certain that your custom Docker image is functioning as expected.
+
+## VS Code Dev Containers demo
+
+First, install the [VS Code Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
+
+Next, open the [devcontainers](./devcontainers) folder in a new instance of VS Code. The remote dev extension should recognize the 'devcontainer' configuration contained within the folder and automatically build the Docker image, start an instance of the container, connect your VS Code window to the VS Code server running in the container, and provide you a fully configured dev environment within that container.
