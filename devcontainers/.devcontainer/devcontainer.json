@@ -1,0 +1,6 @@
+{
+    "name": "Azure ATL Python env",
+    "dockerFile": "dev.dockerfile",
+    "forwardPorts": [5000],
+    "extensions": ["ms-python.python"]
+}
